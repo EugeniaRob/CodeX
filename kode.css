@@ -4,6 +4,9 @@ margin: 20px;
 .blue {
     color: blue;
 }
+b {
+    color: #0D6EFD;
+}
 /* .container {
     display: flex;
     flex-direction: row;
@@ -58,26 +61,173 @@ margin: 20px;
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
+    padding: 10px;
 }
 .tests {
-    background-color: lightblue;
-    padding: 25px;
+    background-color: white;
+    margin: 10px 50px;
+    padding: 20px;
     text-align: left;
     border-radius: 10px;
     width: 300px;
-    /* height: 200px; */
+    box-shadow: 10px 10px 5px lightblue;
+    
 }
-/* #internShip {
-    background-color: blue;
-} */
+
+.course {
+    margin-top: 50px;
+    text-align: center; 
+}
 .btns-2 {
-    display: grid;
+    background-color: rgb(216, 245, 255);
+    padding: 20px;
+    border: lightblue;
+    border-radius: 5px;
+    width: 200px;
+
+    img {
+        width: 30px;
+    }
+    
 }
+
 .icons {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto ;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+    column-gap: 70px;
+    row-gap: 30px;
+}
+
+.testimonials {
+    background-color: #e9f2ff;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 40px;
+
+}
+#cont-3 {
+    justify-content: space-around;
+    gap: 30px;
+
+    img {
+        width: 400px;
+    }
+}
+.cont-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #0D6EFD;
+    border-radius: 10px;
+
+    p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+.btns-3 {
+    background-color: white;
+    padding: 10px;
+    border: lightblue;
+    border-radius: 20px;
+    width: 150px;
+    color: #0D6EFD;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+
+    input {
+        width:250px;
+    }
+}
+button:hover {
+    background-color: #95befd; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border: 1px solid #95befd;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.5s ease, color 0.3s ease; /* Smooth transition effect */
+}
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tests {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tests {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn-1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .tests {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer input {
+        width: 100%;
+    }
 }
