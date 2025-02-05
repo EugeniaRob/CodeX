@@ -101,6 +101,31 @@ b {
     margin-top: 20px;
     column-gap: 70px;
     row-gap: 30px;
+
+    #col-1 {
+        background-color: #f9fdf6 ;
+    }
+    #col-2 {
+        background-color: #f1fbfc;
+    }
+    #col-3 {
+        background-color: #f6f9ff
+    }
+    #col-4 {
+        background-color: #f7feff;
+    }
+    #col-5 {
+        background-color:#f5faf0;
+    }
+    #col-6 {
+        background-color: #eef2fe ;
+    }
+    #col-7 {
+        background-color: #fffcf0;
+    }
+    #col-8 {
+        background-color: #eff2f8;
+    }
 }
 
 .testimonials {
@@ -160,6 +185,17 @@ footer {
 
     input {
         width:250px;
+    }
+    #submit {
+        width: 100px;
+        background-color: #0D6EFD;
+        color: white;
+        border: #0D6EFD;
+        border-radius: 10px;
+    }
+    #submit:hover {
+        background-color: white;
+        color: #0D6EFD;
     }
 }
 button:hover {
